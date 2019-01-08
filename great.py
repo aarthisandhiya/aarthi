@@ -1,4 +1,3 @@
-print("enter 3 values")
 a=int(input())
 b=int(input())
 c=int(input())
