@@ -1,4 +1,4 @@
-a=int(input())
+z=int(input())
 p=int(input())
-c=a**p
+c=z**p
 print(c)
