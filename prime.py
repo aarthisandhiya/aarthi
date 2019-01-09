@@ -1,11 +1,11 @@
-q=int(input())
-key=0
-i=1
-while i<=q:
-	if q%i==0:
-		key=key+1
-	i+=1
-if key==2:
+a=int(input())
+c=a
+d=0
+while a>0:
+	b=a%10
+	d=d*10+b
+	a=a//10
+if d==c:
 	print("yes")
 else:
 	print("no")
