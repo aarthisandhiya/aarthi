@@ -5,4 +5,3 @@ for i in range(q+1,w):
 	if i%2==0:
 		e=e+str(i)+' '
 print(e.strip())
-https://github.com/aarthisandhiya/aarthi/blob/master/even.py
