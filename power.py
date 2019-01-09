@@ -1,4 +1,5 @@
-z,p=map(int,input().split())
-c=z**p
-print(c)
+#aaaaaaaaaaaaaaaaaaa
+s,y=map(int,input().split())
+w=s**y
+print(w)
 
