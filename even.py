@@ -1,4 +1,4 @@
-#jdfcbkjc
+#fgbfcnhbvf
 q,w=map(int,input().split())
 e=' '
 for i in range(q+1,w):
