@@ -1,4 +1,2 @@
-a=int(input())
-b=[int(i) for i in input().split()]
+b=list(map(int,input().split()))
 print(max(b))
-	
