@@ -10,6 +10,6 @@ for i in range(0,len(a)):
 		d=d+1
 		
 if c>0 and d>0:
-	print("yes")
+	print("Yes")
 else:
-	print("no")
+	print("No")
