@@ -1,41 +1,41 @@
-a=input()
-if a=="I":
+e=input()
+if e=="I":
 	print("1")
-elif a=="II":
+elif e=="II":
 	print("2")
-elif a=="III":
+elif e=="III":
 	print("3")
-elif a=="IV":
+elif e=="IV":
 	print("4")
-elif a=="V":
+elif e=="V":
 	print("5")
-elif a=="VI":
+elif e=="VI":
 	print("6")
-elif a=="VII":
+elif e=="VII":
 	print("7")
-elif a=="VIII":
+elif e=="VIII":
 	print("8")
-elif a=="IX":
+elif e=="IX":
 	print("9")
-elif a=="X":
+elif e=="X":
 	print("10")
-elif a=="XI":
+elif e=="XI":
 	print("11")
-elif a=="XII":
+elif e=="XII":
 	print("12")
-elif a=="XIII":
+elif e=="XIII":
 	print("13")
-elif a=="XIV":
+elif e=="XIV":
 	print("14")
-elif a=="XV":
+elif e=="XV":
 	print("15")
-elif a=="XVI":
+elif e=="XVI":
 	print("16")
-elif a=="XVII":
+elif e=="XVII":
 	print("17")
-elif a=="XVIII":
+elif e=="XVIII":
 	print("18")
-elif a=="XIX":
+elif e=="XIX":
 	print("19")
-elif a=="XX":
+elif e=="XX":
 	print("20")
