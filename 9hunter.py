@@ -13,6 +13,7 @@ for i in range(0,n-1):
         m=abs(l[i]+l[j])
         a=i
         b=j
-
+  if f==1:
+      break
 else:
     print(l[a],l[b])
