@@ -7,6 +7,6 @@ for i in range(0,len(m)):
         if m[i]==n[j]:
             c=c+1 
 if c==len(m):
-    print("yes")
+    print("YES")
 else:
-    print("no")
+    print("NO")
