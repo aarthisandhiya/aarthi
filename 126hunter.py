@@ -1,4 +1,6 @@
 x =input()
-b=x.title()
-print(b)
+if x.istitle():
+    print("yes")
+else:
+    print("no")
             
