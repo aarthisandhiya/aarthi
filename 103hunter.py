@@ -1,7 +1,8 @@
-a=int(input())
-k=1 
-for i in range(1,a+1):
-    for j in range(1,k+1):
-        print("1",end=" ")
-    k=k+2 
-    print()
+n = int(input(""))
+j = 1
+for i in range(n):
+    st = ""
+    for x in range(0,j):
+        st+="1 "
+    print(st.strip())
+    j+=2
