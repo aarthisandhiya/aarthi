@@ -7,7 +7,6 @@ for i in range((len(y)-1)):
 	for j in range(i,len(y)):
 		if y[i:j+1] in a:
 			temp = y[i:j+1]
-			print(temp)
 			if len(temp) >= int(length):
 				length = len(y[i:j+1])
 				maxx = i
