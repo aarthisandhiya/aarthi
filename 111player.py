@@ -6,8 +6,8 @@ lst1=[]
 for i in s:
     for j in k:
         if i==j:
-            if i not in lst1:
-                lst1.append(i)
+            lst1.append(i)
+            break
 lst1=sorted(lst1)
 for i in range(len(lst1)):
     x=len(lst1)-1
