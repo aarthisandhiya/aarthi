@@ -7,6 +7,6 @@ elif len(n)>len(m):
     k=list(n)
     for i in range(len(m)):
         s.append(k[i])
-    print(s)
+    #print(s)
     d="".join(list(s))
     print(d+m)
