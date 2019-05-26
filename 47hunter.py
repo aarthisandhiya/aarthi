@@ -1,3 +1,3 @@
 import re
-z=input("")
-print(re.sub(" +"," ",z.strip()))
+k=input("")
+print(re.sub(" +"," ",k.strip()))
