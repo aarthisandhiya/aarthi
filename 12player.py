@@ -14,5 +14,8 @@ list_1=[int(a) for a in input().split()]
 
 if len(list_1)==1:
     print(*list_1)
+    
+elif len(list_1)==2:
+    print(list_1[1],list_1[0])
 else:
     rightRotate(list_1, rotate_num)
