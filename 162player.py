@@ -11,7 +11,7 @@ for i in range(0,len(d)):
     if i<b:
         s=d[i]
         s=s.lower()
-        print(s)
+        #print(s)
         e=len(s)
         for j in range(0,e):
             if s[j]=='a' or s[j]=='e' or s[j]=='i' or s[j]=='o' or s[j]=='u':
