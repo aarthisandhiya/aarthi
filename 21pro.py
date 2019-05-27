@@ -1,6 +1,6 @@
 k=int(input())
 l=list(map(int,input().split()))
-a=int(n/2)
+a=int(k/2)
 #print(a)
 t=[]
 t.append(l[0:a])
