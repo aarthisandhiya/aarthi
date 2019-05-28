@@ -5,7 +5,7 @@ g=[]
 g.append(s)
 g.append(k)
 e=min(g)
-print(e)
+#print(e)
 c=1
 for i in range(0,len(a)):
     for j in range(0,len(b)):
