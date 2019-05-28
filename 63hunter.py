@@ -6,23 +6,19 @@ c=b[1:]
 lst1=[]
 print(max(c),end=" ")
 
-for i in range(1,len(c)-1):
+for i in range(1,len(c)):
     minn=c[i]
     #print(minn)
-       
     for j in range(i+1,len(c)):
         #print(minn,'=',c[j])
         if c[j]>minn:
+            k=0
             minn=c[j]
-            #print(minn)
-            lst1.append(c[j])
-            break
+        #print(minn)
+    lst1.append(minn)
+    
             
-    else:
-        lst1.append(minn)
-    #print(lst1)
-lst1.append(c[-1])
-        
+
 lst1.append(0)
 for i in range(0,len(lst1)):
     if i!=len(lst1)-1:
