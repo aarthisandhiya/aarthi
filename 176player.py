@@ -1,5 +1,12 @@
 a,b=map(str,input().split())
-c=0
+s=len(a)
+k=len(b)
+g=[]
+g.append(s)
+g.append(k)
+e=min(g)
+print(e)
+c=1
 for i in range(0,len(a)):
     for j in range(0,len(b)):
         if a[i]==b[j]:
@@ -7,7 +14,7 @@ for i in range(0,len(a)):
                 c=c+1 
                 #print(c)
                 break
-if c>=len(a)-1:
+if c>=e:
     print("true")
 else:
     print("false")
