@@ -3,7 +3,7 @@ b=[int(a) for a in input()]
 #print(b)
 s=[]
 for i in range(0,len(b)):
-    if b[i]==1:
+    if b[i]==0:
         #print(b[i])
         d=b[:i]
        # print(d)
