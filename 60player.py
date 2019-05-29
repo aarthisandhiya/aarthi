@@ -4,7 +4,7 @@ for i in range(0,len(a)):
     for j in range(0,len(b)):
         if a[i]==b[j]:
             c=c+1 
-            print(c)
+            #print(c)
 if c>0:
     print("yes")
 else:
