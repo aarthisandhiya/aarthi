@@ -1,7 +1,5 @@
-a,b=map(str,input().split())
+a=input().split()
 c=input()
-if c!=a:
-    print(c)
-
-else:
-    print(b)
+for i in range(0,len(a)):
+    if c!=a[i]:
+        print(a[i],end=" ")
