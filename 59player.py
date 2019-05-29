@@ -1,5 +1,5 @@
 a=int(input())
-b=[int(a) for a in input()]
+b=[int(a) for a in input().split()]
 #print(b)
 s=[]
 for i in range(0,len(b)):
